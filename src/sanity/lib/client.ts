@@ -3,9 +3,9 @@ import { createClient } from 'next-sanity'
 import { apiVersion, dataset, projectId } from '../env'
 
 export const client = createClient({
-  projectId:"spwtutww",
+  projectId:"uliw8j2q",
   dataset:"production",
   apiVersion,
   useCdn: true, // Set to false if statically generating pages, using ISR or tag-based revalidation
-  token:"skw4DVCc31A9iZf584xwVtlAP4seRFwRGDaLYA8lOkZFi7WYiuTSk5MI5JZqY52QvF1hFWYqlmCPiy1LkLnLDwKqYZerAQZ2MqkHctOAelUY5GCuHi9Zkncs0Tm46qnm5zz2N1XONKiLk9YQuFvq8fCRABXjZW7P2cmWIGKQ0aKQK1Jog4ku"
+  token:"sksSnfjYFLIWzQv0ZGZRqOfpuYb7xvz8cOBbcvGSHlaR90zV1SNkeKKSUOkTWm1LTvJoREAbAG4NvYf8SUHhRLSZxzCyLw7lCppqDfpt96VmLB2r8K2TVWF7DNtMrHAB4DNbNORMIhyuhznKmQKlyDk54xku1FzPgazaWyLRaPJWdYd35ecY"
 })
